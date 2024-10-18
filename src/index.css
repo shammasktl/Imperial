@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 /* Google Fonts */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Tailwind */
+
 * {
   margin: 0;
   padding: 0;
