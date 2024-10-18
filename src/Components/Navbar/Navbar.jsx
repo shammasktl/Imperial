@@ -33,15 +33,15 @@ const Navbar = () => {
               </div>
               <div className="links text-center">
                 <ul className='flex md:hidden flex-col gap-5'>
-                  <li>Home</li>
-                  <li><span>About Us</span><i class="uil uil-angle-down"></i></li>
-                  <li>Academics</li>
-                  <li>Gallery</li>
-                  <li>Contact</li>
+                  <li className='cursor-pointer'>Home</li>
+                  <li className='cursor-pointer'><span>About Us</span><i class="uil uil-angle-down"></i></li>
+                  <li className='cursor-pointer'>Academics</li>
+                  <li className='cursor-pointer'>Gallery</li>
+                  <li className='cursor-pointer'>Contact</li>
                 </ul>
               </div>
               <div className="btn flex flex-col gap-5 text-center">
-                <button className='border-2 block border-white hover:bg-black hover:text-white duration-[0.5s] p-1 py-2 rounded-2xl cursor-pointer text-white'>Sign Now</button>
+                <button className='border-2 block border-white hover:bg-white hover:text-black duration-[0.5s] p-1 py-2 rounded-2xl cursor-pointer text-white'>Sign Now</button>
                 <button className='border-2 block border-white rounded-2xl p-1 py-2 duration-[0.5s] bg-white text-black hover:bg-transparent cursor-pointer hover:text-white'>Register Now</button>
               </div>
             </div> :
@@ -60,7 +60,7 @@ const Navbar = () => {
                 </ul>
               </div>
               <div className="btn flex flex-col gap-5 text-center">
-                <button className='border-2 block border-white hover:bg-black hover:text-white duration-[0.5s] p-1 py-2 rounded-2xl cursor-pointer text-white'>Sign Now</button>
+                <button className='border-2 block border-white hover:bg-white hover:text-black duration-[0.5s] p-1 py-2 rounded-2xl cursor-pointer text-white'>Sign Now</button>
                 <button className='border-2 block border-white rounded-2xl p-1 py-2 duration-[0.5s] bg-white text-black hover:bg-transparent cursor-pointer hover:text-white'>Register Now</button>
               </div>
             </div>
