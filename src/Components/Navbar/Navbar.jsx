@@ -12,11 +12,11 @@ const Navbar = () => {
         </div>
         <div className="links">
           <ul className='hidden md:flex  gap-3'>
-            <li>Home</li>
-            <li><span>About Us</span><i class="uil uil-angle-down"></i></li>
-            <li>Academics</li>
-            <li>Gallery</li>
-            <li>Contact</li>
+            <li className='cursor-pointer'>Home</li>
+            <li className='cursor-pointer'><span>About Us</span><i class="uil uil-angle-down"></i></li>
+            <li className='cursor-pointer'>Academics</li>
+            <li className='cursor-pointer'>Gallery</li>
+            <li className='cursor-pointer'>Contact</li>
           </ul>
         </div>
         <div className="btn flex gap-3 items-center">
