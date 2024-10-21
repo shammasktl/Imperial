@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "./Navbar.css"
 import { main } from '../../assets/assets'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const [open, setOpen] = useState(false)
@@ -33,10 +34,10 @@ const Navbar = () => {
               </div>
               <div className="links text-center">
                 <ul className='flex md:hidden flex-col gap-5'>
-                  <li className='cursor-pointer text-2xl'>Home</li>
-                  <li className='cursor-pointer text-2xl'><span>About Us</span><i class="uil uil-angle-down"></i></li>
-                  <li className='cursor-pointer text-2xl'>Gallery</li>
-                  <li className='cursor-pointer text-2xl'>Academics</li>
+                  <li className='cursor-pointer text-2xl'><Link to="/">Home</Link></li>
+                  <li className='cursor-pointer text-2xl'><span><Link to="/about">About Us</Link></span><i class="uil uil-angle-down"></i></li>
+                  <li className='cursor-pointer text-2xl'><Link to="/gallery">Gallery</Link></li>
+                  <li className='cursor-pointer text-2xl'><Link  to="/academics">Academics</Link></li>
                 </ul>
               </div>
               <div className="btn flex flex-col gap-5 text-center">
