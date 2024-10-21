@@ -1,5 +1,5 @@
 import logo from './logo.png'
-import banner1 from './banner1.jfif'
+import banner1 from './banner.png'
 
 export const main = {
     logo,

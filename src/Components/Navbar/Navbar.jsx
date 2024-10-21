@@ -20,9 +20,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="btn flex gap-3 items-center">
-          <button className='border-2 hidden md:block border-black hover:bg-black hover:text-white duration-[0.5s] p-1 py-2 md:p-3 rounded-2xl cursor-pointer text-black'>Sign Now</button>
+          <button className='border-2 hidden md:block border-black hover:bg-black hover:text-white duration-[0.5s] p-1 py-2 md:p-3 rounded-2xl cursor-pointer text-black'>Sign In</button>
           <button className='border-2 hidden md:block border-black rounded-2xl p-1 py-2 md:p-3 duration-[0.5s] bg-black text-white hover:bg-transparent cursor-pointer hover:text-black'>Register Now</button>
-          <i class="uil uil-bars block md:hidden text-4xl cursor-pointer" onClick={() => { setOpen(true) }}></i>
+          <i class="uil uil-bars block md:hidden text-4xl cursor-pointer" onClick={() => {setOpen(true) }}></i>
         </div>
         {
           open === true ?
