@@ -7,7 +7,7 @@ const Navbar = () => {
   const [active,setActive] = useState("home")
   return (
     <div className="forbg bg-white py-7">
-      <div className='navbar w-[90%] my-0 mx-auto flex justify-between items-center bg-white rounded-full px-10'>
+      <div className='navbar w-[90%] my-0 mx-auto flex justify-between items-center bg-white rounded-full px-10 h-[100%]'>
         <div className="logo">
           <img src={main.logo} className='w-14' alt="" />
         </div>
@@ -27,7 +27,7 @@ const Navbar = () => {
         {
           open === true ?
             // 1
-            <div className="responsive z-50 flex flex-col gap-12 absolute bottom-0 bg-gray-800 text-white right-0 h-[100%] p-9">
+            <div className="responsive z-50 md:hidden flex flex-col gap-12 absolute bottom-0 bg-gray-800 text-white right-0 h-[100%] p-9">
               <div className="cancel">
                 <i class="uil uil-times text-4xl" onClick={() => { setOpen(false) }}></i>
               </div>
