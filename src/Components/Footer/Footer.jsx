@@ -4,7 +4,7 @@ import { main } from '../../assets/assets'
 const Footer = () => {
   return (
     <div className='footer bg-gray-700 text-white mt-11 pb-8'>
-      <div className="up flex gap-12 md:justify-between p-9 w-[90%] my-0 mx-auto">
+      <div className="up flex gap-12 flex-col md:flex-row md:justify-between p-9 w-[90%] my-0 mx-auto">
         <div className="description flex justify-center items-center flex-col gap-8">
           <img src={main.logo} className='w-20' alt="" />
           <p className='w-64 text-center text-white'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente suscipit dignissimos porro optio quasi deleniti. Necessitatibus veritatis eligendi aspernatur neque!</p>
@@ -16,10 +16,13 @@ const Footer = () => {
             <li>+91 96325 58741</li>
           </ul>
         </div>
-        <div className="keep flex flex-col justify-center items-center bg-white text-black rounded-3xl p-20">
-          <h3>Keep 'n' Touch</h3>
-          <div className="icons">
-            <img src={main.appicons} alt="" />
+        <div className="keep flex gap-7 flex-col justify-center items-center bg-white text-black rounded-3xl p-20">
+          <h3 className='text-3xl'>Keep 'n' Touch</h3>
+          <div className="icons flex gap-2 items-center">
+          <i class="uil uil-youtube text-5xl cursor-pointer duration-[0.5s] hover:text-red-500"></i>
+          <i class="uil uil-instagram-alt text-5xl cursor-pointer duration-[0.5s] hover:text-pink-500"></i>
+          <i class="uil uil-facebook text-5xl cursor-pointer duration-[0.5s] hover:text-blue-700"></i>
+          <i class="uil uil-twitter text-5xl cursor-pointer duration-[0.5s] hover:text-sky-500"></i>
           </div>
         </div>
       </div>
