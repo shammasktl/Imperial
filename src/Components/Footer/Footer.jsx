@@ -4,7 +4,7 @@ import { main } from '../../assets/assets'
 const Footer = () => {
   return (
     <div className='footer bg-gray-700 text-white mt-11 pb-8'>
-      <div className="up flex gap-12 flex-col md:flex-row md:justify-between p-9 w-[90%] my-0 mx-auto">
+      <div className="up flex gap-12 flex-col lg:flex-row lg:justify-between p-9 w-[90%] my-0 mx-auto">
         <div className="description flex justify-center items-center flex-col gap-8">
           <img src={main.logo} className='w-20' alt="" />
           <p className='w-64 text-center text-white'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente suscipit dignissimos porro optio quasi deleniti. Necessitatibus veritatis eligendi aspernatur neque!</p>
