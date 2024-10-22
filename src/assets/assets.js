@@ -5,11 +5,13 @@ import nios from './nios.png'
 import ignou from './ignou.png'
 import scole from './scole.png'
 import sreenarayana from './sreenarayana.png'
+import appicons from './icons.png'
 
 export const main = {
     logo,
     banner1,
     course,
+    appicons,
 }
 
 export const courses = [
