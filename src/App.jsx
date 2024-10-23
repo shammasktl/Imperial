@@ -11,15 +11,15 @@ import Gallery from './Pages/Gallery/Gallery'
 const App = () => {
   return (
     <>
-    <Navbar />
-    <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/gallery' element={<Gallery />} />
-      <Route path='/academics' element={<Academics />} />
-      <Route path='/authenticate' element={<Login />} />
-    </Routes>
-    <Footer />
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/gallery' element={<Gallery />} />
+        <Route path='/academics' element={<Academics />} />
+        <Route path='/authenticate' element={<Login />} />
+      </Routes>
+      <Footer />
     </>
   )
 }
