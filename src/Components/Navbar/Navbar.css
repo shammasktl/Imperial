@@ -8,3 +8,6 @@
     }
 }
 
+.responsive::-webkit-scrollbar {
+    display: none;
+}

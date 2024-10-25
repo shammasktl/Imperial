@@ -28,7 +28,7 @@ const Navbar = () => {
         {
           open === true ?
             // 1
-            <div className="responsive z-50 md:hidden flex flex-col gap-36 fixed bottom-0 bg-gray-800 text-white right-0 h-[100%] p-9">
+            <div className="responsive z-50 md:hidden flex flex-col gap-36 fixed bottom-0 bg-gray-800 text-white right-0 h-[100%] p-9 overflow-y-scroll">
               <div className="cancel">
                 <i className="uil uil-times text-4xl" onClick={() => { setOpen(false) }}></i>
               </div>
