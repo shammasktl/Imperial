@@ -1,3 +1,10 @@
 .responsive {
     transition: all 0.2s;
 }
+
+@media (max-width: 790px) {
+    .media{
+        display: none;
+    }
+}
+

@@ -1,8 +1,10 @@
 import React from 'react'
+import Info from '../../Components/Info/Info'
 
 const About = () => {
   return (
-    <div>
+    <div className='about'>
+      <Info />
     </div>
   )
 }

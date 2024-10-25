@@ -18,11 +18,11 @@ const Footer = () => {
         </div>
         <div className="keep flex gap-7 flex-col justify-center items-center bg-white text-black rounded-3xl p-20">
           <h3 className='text-3xl text-center'>Keep 'n' Touch</h3>
-          <div className="icons flex gap-2 items-center">
-            <i className="uil uil-youtube text-5xl cursor-pointer duration-[0.5s] hover:text-red-500"></i>
-            <i className="uil uil-instagram-alt text-5xl cursor-pointer duration-[0.5s] hover:text-pink-500"></i>
-            <i className="uil uil-facebook text-5xl cursor-pointer duration-[0.5s] hover:text-blue-700"></i>
-            <i className="uil uil-twitter text-5xl cursor-pointer duration-[0.5s] hover:text-sky-500"></i>
+          <div className="icons flex gap-4 items-center">
+            <i className="uil uil-youtube text-5xl cursor-pointer duration-[0.5s] text-red-700 w-9"></i>
+            <i className="uil uil-instagram-alt text-5xl cursor-pointer duration-[0.5s] text-pink-700 w-9"></i>
+            <i className="uil uil-facebook text-5xl cursor-pointer duration-[0.5s] text-blue-700 w-9"></i>
+            <i className="uil uil-twitter text-5xl cursor-pointer duration-[0.5s] text-sky-700 w-9"></i>
           </div>
         </div>
       </div>
