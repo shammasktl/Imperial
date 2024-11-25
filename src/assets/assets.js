@@ -35,6 +35,10 @@ import event26 from './events/26.jpg';
 import event27 from './events/27.png';
 import event28 from './events/28.jpg';
 import videoBg from './video-bg.png';
+import heroBanner1 from './hero-banner-1.jpg';
+import heroBanner2 from './hero-banner-2.jpg';
+import heroShape1 from './hero-shape-1.svg';
+import heroShape2 from './hero-shape-2.png';
 
 
 export const main = {
@@ -43,7 +47,10 @@ export const main = {
     course,
     appicons,
     videoBg,
-    
+    heroBanner1,
+    heroBanner2,
+    heroShape1,
+    heroShape2,
 }
 
 export const courses = [

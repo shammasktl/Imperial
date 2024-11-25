@@ -28,27 +28,27 @@ const Navbar = () => {
                 </div>
             </div>
             {
-                isOpen === true ? <div className="responsive overflow-hidden duration-500 h-full fixed top-0 right-0 bottom-0 left-0 flex items-center justify-center bg-stone-950 text-white">
+                isOpen === true ? <div className="responsive overflow-hidden duration-500 h-full fixed top-0 right-0 bottom-0 left-0 flex items-center justify-center bg-orange-950 text-white">
                 <div className="close absolute top-6 right-[70px]" onClick={()=>{setOpen(false)}}>
                     <Hamburger toggle={setOpen} toggled={setOpen} />
                 </div>
-                <ul className='px-7 flex flex-col gap-4'>
-                    <li className="text-center text-2xl cursor-pointer" onClick={() => { setActive("about");setOpen(false)}}>About</li>
-                    <li className="text-center text-2xl cursor-pointer" onClick={() => { setActive("courses");setOpen(false)}}>Courses</li>
-                    <li className="text-center text-2xl cursor-pointer" onClick={() => { setActive("events");setOpen(false)}}>Events</li>
-                    <li className="text-center text-2xl cursor-pointer" onClick={() => { setActive("gallery");setOpen(false)}}>Gallery</li>
-                    <li className="text-center text-2xl cursor-pointer" onClick={() => { setActive("news");setOpen(false)}}>News</li>
+                <ul className='px-7 flex flex-col gap-6'>
+                    <li className="text-center text-4xl cursor-pointer" onClick={() => { setActive("about");setOpen(false)}}>About</li>
+                    <li className="text-center text-4xl cursor-pointer" onClick={() => { setActive("courses");setOpen(false)}}>Courses</li>
+                    <li className="text-center text-4xl cursor-pointer" onClick={() => { setActive("events");setOpen(false)}}>Events</li>
+                    <li className="text-center text-4xl cursor-pointer" onClick={() => { setActive("gallery");setOpen(false)}}>Gallery</li>
+                    <li className="text-center text-4xl cursor-pointer" onClick={() => { setActive("news");setOpen(false)}}>News</li>
                 </ul>
-            </div>:<div className="responsive h-0 overflow-hidden duration-500 fixed top-0 right-0 bottom-0 left-0 flex items-center justify-center bg-stone-950 text-white">
+            </div>:<div className="responsive h-0 overflow-hidden duration-500 fixed top-0 right-0 bottom-0 left-0 flex items-center justify-center bg-orange-950 text-white">
                 <div className="close absolute top-6 right-[70px]" onClick={()=>{setOpen(false)}}>
                     <Hamburger toggle={setOpen} toggled={setOpen} />
                 </div>
-                <ul className='px-7 flex flex-col gap-4'>
-                    <li className="text-center text-2xl cursor-pointer" onClick={() => { setActive("about") }}>About</li>
-                    <li className="text-center text-2xl cursor-pointer" onClick={() => { setActive("courses") }}>Courses</li>
-                    <li className="text-center text-2xl cursor-pointer" onClick={() => { setActive("events") }}>Events</li>
-                    <li className="text-center text-2xl cursor-pointer" onClick={() => { setActive("gallery") }}>Gallery</li>
-                    <li className="text-center text-2xl cursor-pointer" onClick={() => { setActive("news") }}>News</li>
+                <ul className='px-7 flex flex-col gap-6'>
+                    <li className="text-center text-4xl cursor-pointer" onClick={() => { setActive("about") }}>About</li>
+                    <li className="text-center text-4xl cursor-pointer" onClick={() => { setActive("courses") }}>Courses</li>
+                    <li className="text-center text-4xl cursor-pointer" onClick={() => { setActive("events") }}>Events</li>
+                    <li className="text-center text-4xl cursor-pointer" onClick={() => { setActive("gallery") }}>Gallery</li>
+                    <li className="text-center text-4xl cursor-pointer" onClick={() => { setActive("news") }}>News</li>
                 </ul>
             </div>    
             }
