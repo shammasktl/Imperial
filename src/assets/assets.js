@@ -34,6 +34,7 @@ import event25 from './events/25.jpeg';
 import event26 from './events/26.jpg';
 import event27 from './events/27.png';
 import event28 from './events/28.jpg';
+import videoBg from './video-bg.png';
 
 
 export const main = {
@@ -41,6 +42,8 @@ export const main = {
     banner1,
     course,
     appicons,
+    videoBg,
+    
 }
 
 export const courses = [
